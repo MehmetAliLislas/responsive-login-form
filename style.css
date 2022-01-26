@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: linear-gradient(
+    109.6deg,
+    rgba(61, 245, 167, 1) 11.2%,
+    rgba(9, 111, 224, 1) 91.1%
+  );
+}
+
+a {
+  text-decoration: none;
+}
+
+label {
+  color: rgb(37, 33, 33);
+  padding-left: 15px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.login-box {
+  width: 300px;
+  height: 470px;
+  margin-top: 30px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  background-image: linear-gradient(
+    109.5deg,
+    rgba(229, 233, 177, 1) 11.2%,
+    rgba(223, 205, 187, 1) 100.2%
+  );
+}
+
+.login-box-2 {
+  width: 300px;
+  height: 350px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  background-image: linear-gradient(
+    109.5deg,
+    rgba(229, 233, 177, 1) 11.2%,
+    rgba(223, 205, 187, 1) 100.2%
+  );
+}
+
+.login-box h3,
+.login-box-2 h3 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(47, 124, 197);
+}
+
+.login-box p a:hover,
+.login-box-2 p a:hover {
+  opacity: 0.7;
+}
+
+.login-box p,
+a,
+.login-box-2 p,
+a {
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 13px;
+  font-weight: light;
+}
+
+.input {
+  width: 90%;
+  height: 30px;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 1px solid rgb(211, 211, 211);
+}
+
+.input:hover {
+  border: 1px solid black;
+  transition: all 0.5s;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  background-color: rgb(47, 124, 197);
+  width: 90%;
+  margin-left: 15px;
+  margin-top: 10px;
+  height: 45px;
+  color: rgb(255, 255, 255);
+}
+
+.login:hover {
+  color: white;
+  background-color: rgb(1, 32, 61);
+  opacity: 0.8;
+  transition: all ease-in-out 0.3s;
+}
+
+.socials a:hover {
+  color: rgb(1, 32, 61);
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin-left: 15px;
+  margin-top: 10px;
+  width: 90%;
+  height: 45px;
+  border-radius: 5px;
+  border: 1px solid rgb(17, 70, 119);
+}
+
+.social i {
+  padding-right: 10px;
+  font-size: 20px;
+  padding-left: 30px;
+  color: rgb(47, 124, 197);
+}
+
+.social a {
+  margin-left: 10px;
+  color: black;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social a:hover {
+  color: rgb(47, 124, 197);
+  font-weight: 600;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin-left: 15px;
+}
+
+.socials i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  font-size: 25px;
+}
+
+.socials a {
+  color: rgb(47, 124, 197);
+}
